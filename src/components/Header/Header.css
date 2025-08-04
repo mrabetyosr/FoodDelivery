@@ -72,3 +72,85 @@
   color: #fff; /* texte blanc sur orange */
   transform: scale(1.04);
 }
+@media (max-width: 1024px) {
+  .header {
+    height: 45vw;
+    min-height: 300px;
+  }
+
+  .header-contents {
+    max-width: 70%;
+    gap: 16px;
+    left: 6%;
+    bottom: 10%;
+  }
+
+  .header-contents h2 {
+    font-size: 3vw;
+  }
+
+  .header-contents p {
+    font-size: 1.3vw;
+  }
+
+  .header-contents button {
+    font-size: 1.1vw;
+    padding: 12px 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    width: 95vw;
+    height: auto;
+    margin: 30px auto;
+    border-radius: 24px;
+  }
+
+  .header-contents {
+    position: static;
+    padding: 24px 20px;
+    max-width: 100%;
+    gap: 18px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .header-contents h2 {
+    font-size: 24px;
+  }
+
+  .header-contents h2::after {
+    margin: 8px auto 0;
+  }
+
+  .header-contents p {
+    font-size: 15px;
+  }
+
+  .header-contents button {
+    font-size: 15px;
+    padding: 12px 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-contents {
+    padding: 20px 16px;
+    gap: 16px;
+  }
+
+  .header-contents h2 {
+    font-size: 20px;
+  }
+
+  .header-contents p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .header-contents button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}

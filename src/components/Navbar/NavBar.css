@@ -100,3 +100,58 @@ button:hover {
     border-radius: 5px;
    
 }
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    padding: 12px 20px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .logo {
+    width: 90px;
+    margin-bottom: 12px;
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    margin-top: 12px;
+  }
+
+  .navbar-menu li {
+    font-size: 16px;
+    padding: 10px 0;
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .navbar-right {
+    flex-direction: column;
+    gap: 12px;
+    margin: 16px 0 0;
+    width: 100%;
+    align-items: center;
+  }
+
+  .navbar-search-icon {
+    margin-left: 0;
+  }
+
+  button {
+    margin-left: 0;
+    padding: 10px 24px;
+    font-size: 15px;
+  }
+
+  .navbar img[src*="search_icon"],
+  .navbar-search-icon img {
+    width: 24px;
+    height: 24px;
+    margin-left: 0;
+  }
+}
+

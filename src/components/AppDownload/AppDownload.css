@@ -1,0 +1,43 @@
+.app-download {
+  padding: 20px 20px;
+  text-align: center;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+
+.app-download p {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #050505; /* Tomato red */
+  line-height: 1.4;
+}
+
+.app-download-platforms {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.app-download-platforms img {
+  height: 60px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.app-download-platforms img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 500px) {
+  .app-download p {
+    font-size: 18px;
+  }
+
+  .app-download-platforms img {
+    height: 50px;
+  }
+}
+
